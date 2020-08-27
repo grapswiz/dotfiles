@@ -1,0 +1,36 @@
+brew 'git'
+brew 'mackup'
+brew 'nkf'
+brew 'zsh-completions'
+brew 'jq'
+cask 'alfred'
+cask 'controlplane'
+cask 'firefox'
+cask 'google-chrome'
+cask 'google-hangouts'
+cask 'google-japanese-ime'
+cask 'iterm2'
+cask 'kindle'
+cask 'virtualbox'
+cask 'webstorm'
+cask 'goland'
+cask 'jetbrains-toolbox'
+cask '1password'
+cask 'slack'
+
+cask 'java'
+brew 'go'
+cask 'google-cloud-sdk'
+cask 'docker'
+brew 'terraform'
+
+brew "mas"
+mas "Affinity Designer", id: 824171161
+mas "Day One", id: 1055511498
+mas "Deckset", id: 847496013
+mas "LINE", id: 539883307
+mas "MindNode", id: 992076693
+mas "Night Owl", id: 428834068
+mas "The Unarchiver", id: 425424353
+mas "Xcode", id: 497799835
+mas "MindNode 5", id: 1289197285
