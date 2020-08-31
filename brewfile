@@ -17,12 +17,14 @@ cask 'goland'
 cask 'jetbrains-toolbox'
 cask '1password'
 cask 'slack'
+cask 'visual-studio-code'
 
 cask 'java'
 brew 'go'
 cask 'google-cloud-sdk'
 cask 'docker'
 brew 'terraform'
+brew 'nodenv'
 
 brew "mas"
 mas "Affinity Designer", id: 824171161
