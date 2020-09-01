@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-echo 'Install kr via brew'
+echo 'Install kr via homebrew'
 brew install 'kryptco/tap/kr'
 
 # setup
