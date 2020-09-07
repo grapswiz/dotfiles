@@ -22,3 +22,5 @@ cd dotfiles || return
 ./osx.sh
 ./alfred.sh
 ./visual-studio-code.sh
+
+for app in Finder Dock SystemUIServer; do killall "$app" >/dev/null 2>&1; done
