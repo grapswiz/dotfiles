@@ -25,5 +25,6 @@ cd dotfiles || return
 ./google-japanese-ime.sh
 ./alfred.sh
 ./visual-studio-code.sh
+./jetbrains-toolbox.sh
 
 for app in Finder Dock SystemUIServer; do killall "$app" >/dev/null 2>&1; done
