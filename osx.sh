@@ -15,12 +15,6 @@ defaults write com.apple.Dock showhidden -bool YES
 defaults write com.apple.dock static-only -boolean true
 defaults write com.apple.dock autohide -boolean true
 
-# Keyboard
-## Remap Caps Lock key to Control
-keyboardid=$(ioreg -n IOHIDKeyboard -r | grep -E 'VendorID"|ProductID' | awk '{ print $4 }' | paste -s -d'-\n' -)'-0'
-defaults -currentHost delete -g com.apple.keyboard.modifiermapping.${keyboardid}
-defaults -currentHost write -g com.apple.keyboard.modifiermapping.${keyboardid} -array-add '<dict><key>HIDKeyboardModifierMappingDst</key><integer>2</integer><key>HIDKeyboardModifierMappingSrc</key><integer>0</integer></dict>'
-
 # Finder
 ## 全ての拡張子のファイルを表示する
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
