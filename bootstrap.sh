@@ -20,6 +20,7 @@ git clone git@github.com:grapswiz/dotfiles.git
 
 cd dotfiles || return
 ./osx.sh
+./display.sh
 ./spotlight.sh
 ./keyboard.sh
 ./google-japanese-ime.sh
