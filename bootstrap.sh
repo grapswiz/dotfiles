@@ -19,6 +19,7 @@ kr codesign test
 git clone git@github.com:grapswiz/dotfiles.git
 
 cd dotfiles || return
+brew bundle
 ./osx.sh
 ./display.sh
 ./spotlight.sh
