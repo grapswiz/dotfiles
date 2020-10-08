@@ -4,11 +4,8 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
-# Two finger horizontal swipe
-# 0 = Swipe between pages with one finger
-# 1 = Swipe between pages
-# 2 = Swipe between full screen apps with two fingers, swipe between pages with one finger (Default Mode)
-defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseTwoFingerHorizSwipeGesture -int 1
+# Three finger horizontal swipe
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerHorizSwipeGesture -int 1"
 
 # Dock
 defaults write com.apple.Dock showhidden -bool YES
