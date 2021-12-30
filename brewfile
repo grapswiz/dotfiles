@@ -1,38 +1,105 @@
-brew 'git'
-brew 'mackup'
-brew 'nkf'
-brew 'zsh-completions'
-brew 'jq'
-cask 'alfred'
-cask 'controlplane'
-cask 'firefox'
-cask 'google-chrome'
-cask 'google-hangouts'
-cask 'google-japanese-ime'
-cask 'iterm2'
-cask 'kindle'
-cask 'virtualbox'
-cask 'webstorm'
-cask 'goland'
-cask 'jetbrains-toolbox'
-cask '1password'
-cask 'slack'
-cask 'visual-studio-code'
-
-cask 'java'
-brew 'go'
-cask 'google-cloud-sdk'
-cask 'docker'
-brew 'terraform'
-brew 'nodenv'
-
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "kryptco/tap"
+tap "nodenv/nodenv"
+tap "rcmdnk/file"
+tap "robotsandpencils/made"
+brew "anyenv"
+brew "bazelisk"
+brew "python@3.9"
+brew "glib"
+brew "circleci"
+brew "gh"
+brew "git"
+brew "git-lfs"
+brew "python@3.8"
+brew "graphviz"
+brew "jq"
+brew "mackup"
 brew "mas"
+brew "mono"
+brew "nkf"
+brew "node-build"
+brew "nodenv"
+brew "nuget"
+brew "opencv@3"
+brew "openvpn"
+brew "pipenv"
+brew "rust"
+brew "terraform"
+brew "wimlib"
+brew "zsh-completions"
+brew "rcmdnk/file/brew-file", link: false
+brew "robotsandpencils/made/xcodes"
+cask "1password"
+cask "alacritty"
+cask "alfred"
+cask "android-studio"
+cask "bettertouchtool"
+cask "blender"
+cask "clip-studio-paint"
+cask "clipy"
+cask "controlplane"
+cask "discord"
+cask "docker"
+cask "figma"
+cask "firefox"
+cask "fission"
+cask "flux"
+cask "font-hackgen"
+cask "font-hackgen-nerd"
+cask "github"
+cask "goland"
+cask "google-chrome"
+cask "google-cloud-sdk"
+cask "google-hangouts"
+cask "google-japanese-ime"
+cask "graphiql"
+cask "iina"
+cask "insomnia"
+cask "iterm2"
+cask "jetbrains-toolbox"
+cask "karabiner-elements"
+cask "keka"
+cask "kindle"
+cask "loopback"
+cask "notion"
+cask "obs"
+cask "obs-ndi"
+cask "obs-virtualcam"
+cask "obsidian"
+cask "openvpn-connect"
+cask "shiftit"
+cask "sketch"
+cask "slack"
+cask "splashtop-personal"
+cask "toggl-track"
+cask "unity-hub"
+cask "virtualbox"
+cask "visual-studio-code"
+cask "webstorm"
+cask "xquartz"
+cask "zoom"
 mas "Affinity Designer", id: 824171161
-mas "Day One", id: 1055511498
+mas "Affinity Photo", id: 824183456
+mas "Affinity Publisher", id: 881418622
+mas "Cinebench", id: 1438772273
 mas "Deckset", id: 847496013
+mas "GarageBand", id: 682658836
+mas "Genki Arcade", id: 1555925018
+mas "Habitify", id: 1111447047
+mas "iMovie", id: 408981434
 mas "LINE", id: 539883307
+mas "Microsoft Remote Desktop", id: 1295203466
 mas "MindNode", id: 992076693
-mas "Night Owl", id: 428834068
+mas "MindNode", id: 1289197285
+mas "OmmWriter", id: 412347921
+mas "Parallels Client", id: 600925318
+mas "StuffIt Expander", id: 919269455
 mas "The Unarchiver", id: 425424353
+mas "WinArchiver Lite", id: 414855915
 mas "Xcode", id: 497799835
-mas "MindNode 5", id: 1289197285
+mas "夜フクロウ", id: 428834068
