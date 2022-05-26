@@ -5,7 +5,7 @@ defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 # Three finger horizontal swipe
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerHorizSwipeGesture -int 1"
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerHorizSwipeGesture -int 1
 
 # Dock
 defaults write com.apple.Dock showhidden -bool YES
@@ -38,8 +38,6 @@ defaults write com.apple.screencapture location ~/Pictures/screenshots/
 # Security & Privacy
 ## General: Allow applications downloaded from = Anyware
 sudo spctl --master-disable
-
-defaults write com.apple.screencapture location ~/Pictures/screenshots
 
 # Kill affected applications
 for app in Finder Dock SystemUIServer; do killall "$app" >/dev/null 2>&1; done
