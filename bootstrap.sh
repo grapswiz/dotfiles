@@ -4,17 +4,11 @@
 
 xcode-select --install
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # ssh key
-echo 'Install kr via homebrew'
-brew install 'kryptco/tap/kr'
-kr restart
-kr pair
-ssh me.krypt.co
-kr github
-kr codesign
-kr codesign test
+echo -e "[storage]\nengine = icloud" > .mackup.cfg
+mackup restore
 
 git clone git@github.com:grapswiz/dotfiles.git
 
